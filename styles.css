@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+input {
+    padding: 6px;
+    margin: 5px;
+}
+
+button {
+    padding: 8px 14px;
+    margin-top: 10px;
+}
+
+.service {
+    margin-bottom: 8px;
+}
+
+/* Push footer to bottom */
+main {
+    flex: 1;
+}
+
+/* Footer styling */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #f2f2f2;
+}
+
+/* Align individual items */
+footer p {
+    margin: 0;
+}
+
+footer p:nth-child(2) {
+    text-align: center;
+    flex: 1;
+}
+
+footer p:first-child {
+    text-align: left;
+}
+
+footer p:last-child {
+    text-align: right;
+}
